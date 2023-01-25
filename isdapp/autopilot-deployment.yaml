@@ -38,7 +38,7 @@ spec:
         release: isd411
     spec:
       containers:
-        - image: docker.io/library/autopilot:v5
+        - image: docker.io/library/autopilot:v7
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 3
